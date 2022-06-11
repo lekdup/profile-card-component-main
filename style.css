@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #19a2ae;
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position: bottom 200px right 700px, top 300px left 600px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 70%, 70%;
+  text-transform: capitalize;
+}
+
+.card {
+  background-color: #FFF;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 350px;
+  position: relative;
+}
+.card__profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  overflow: hidden;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 90px;
+}
+.card__about {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.card__about h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.card__about h1 span {
+  color: #969696;
+  font-weight: 400;
+}
+.card__about p {
+  color: #969696;
+}
+.card table {
+  width: 100%;
+  table-layout: fixed;
+  padding: 1.5rem;
+  border-top: 1px solid #969696;
+}
+.card table td {
+  font-size: 11px;
+  color: #969696;
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=style.css.map */
